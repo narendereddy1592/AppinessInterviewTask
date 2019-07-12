@@ -1,0 +1,34 @@
+.employeeList-container {
+    margin: 100px 0px 0px 200px;
+    /* position: fixed; */
+}
+.employeeList {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+
+  .employeeList td, .employeeList th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .employeeList tr:nth-child(even){
+      background-color: #f2f2f2;
+    }
+
+  .employeeList tr:hover {
+      background-color: #ddd;
+    }
+
+    .employeeList th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color:lightblue;
+        color: white;
+      }
+    .employeeList tbody tr td {
+      text-align: center;
+    }
+     

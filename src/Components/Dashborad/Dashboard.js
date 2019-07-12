@@ -14,7 +14,6 @@ class Dashboard extends Component{
     }
 
     render() {
-         console.log("dashboard", this.state.DashboardData)
         return (
             <div className="Dashboard">
                 <EmployeeListPage
@@ -26,7 +25,6 @@ class Dashboard extends Component{
 }
 
 const mapStateToProps = (state) => {
-    console.log("mapstatetoprops", state)
     return {
     DashboardData: state.DashBboraddata
     }

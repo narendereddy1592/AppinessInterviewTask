@@ -58,8 +58,6 @@ class LoginPage extends Component {
     
 
     render() {
-        console.log("datafjdkfjk", this.state.loginPageData)
-        
         return (
             <div className="loginPage"> 
             <div className="login-form">
@@ -94,7 +92,6 @@ class LoginPage extends Component {
 }
 
  const mapStateToProps = (state) => {
-    console.log("mapstatetoprops", state)
     return {
     loginData: state.LoginpageData
     }

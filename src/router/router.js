@@ -7,13 +7,13 @@ class router extends Component {
     render(){
         return(
             <div>
-            <Router>
-                <Switch>
-              <Route exact path='/' component={LoginPage}  />
-              <Route  path='/dashboard' component={Dashboard}  />
-              </Switch>
+                <Router>
+                    <Switch>
+                        <Route exact path='/' component={LoginPage} />
+                        <Route path='/dashboard' component={Dashboard} />
+                    </Switch>
                 </Router>
-                </div>
+            </div>
 
         )
     }

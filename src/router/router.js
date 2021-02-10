@@ -9,8 +9,8 @@ class router extends Component {
             <div>
                 <Router>
                     <Switch>
-                        <Route exact path='/' component={LoginPage} />
-                        <Route path='/dashboard' component={Dashboard} />
+                        {/* <Route exact path='/' component={LoginPage} /> */}
+                        <Route path='/' component={Dashboard} />
                     </Switch>
                 </Router>
             </div>
